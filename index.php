@@ -26,8 +26,8 @@
 				<td>Metode</td>
 				<td>
 					<select name="metode">
-						<option value="1">Enkrip</option>
-						<option value="2">Dekrip</option>
+						<option value="1">Enkripsi</option>
+						<option value="2">Dekripsi</option>
 					</select>
 			<tr>
 				<td></td>
