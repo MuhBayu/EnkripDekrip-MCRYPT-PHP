@@ -41,7 +41,7 @@
 
 
 <?php
-if($_SERVER['REQUEST_METHOD'] === "POST") {
+if($_SERVER['REQUEST_METHOD'] == "POST") {
 	define('TEXT', $_POST['string']); 
 	define('KUNCI', $_POST['key']);
 	define('METOD', $_POST['metode']);
