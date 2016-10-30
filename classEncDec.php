@@ -14,7 +14,7 @@ class libEnkripDekrip
     }
 
 
-    function encrypt($text) 
+    function enkripsi($text) 
     { 
         $key = Self::$kunci;
             return trim(base64_encode(mcrypt_encrypt(
@@ -26,7 +26,7 @@ class libEnkripDekrip
             	   )))); 
     } 
 
-    function decrypt($text) 
+    function dekripsi($text) 
     { 
         $key = Self::$kunci;
             $dec = trim(mcrypt_decrypt(
