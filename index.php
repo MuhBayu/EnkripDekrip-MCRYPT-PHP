@@ -47,12 +47,12 @@ if($_SERVER['REQUEST_METHOD'] === "POST") {
 
 	switch (METOD) {
 		case '1':
-			$enkrip = $lib->encrypt(TEXT); 
+			$enkrip = $lib->enkripsi(TEXT); 
 			echo("Hasil Encrypt : " . $enkrip);
 			break;
 		
 		case '2':
-			$dekrip = $lib->decrypt(TEXT);
+			$dekrip = $lib->dekripsi(TEXT);
 			echo "Hasil Decrypt dari " . TEXT . "<br><br> Adalah : ";
 			if($dekrip) {
 				echo($dekrip . "<br/><br/>"); 
