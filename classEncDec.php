@@ -1,7 +1,7 @@
 <?php
 
 /**
-* Class : classEncDec.php
+* Class : libEnkripDekrip
 * Author : bayyu.me
 * Date : 30 Oct 2016
 * Contoh Encrypt Decrypt dengan mcrypt PHP
