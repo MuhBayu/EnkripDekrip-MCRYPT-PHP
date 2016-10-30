@@ -29,9 +29,12 @@
 						<option value="1">Enkripsi</option>
 						<option value="2">Dekripsi</option>
 					</select>
+				<td>
+			</tr>
 			<tr>
 				<td></td>
 				<td><input type="submit" value="Enkrip" name="submit"></td>
+			</tr>
 		</table>
 	</form>
 
